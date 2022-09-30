@@ -1,5 +1,5 @@
 import React from 'react';
-import LoginBtn from '.@/components/Auth/LoginBtn';
+import LoginBtn from './LoginBtn';
 
 export default function AuthScreen() {
   return (
