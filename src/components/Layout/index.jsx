@@ -22,7 +22,7 @@ export default function Layout({ children }) {
           </a>
           <hr />
         </p>
-        <p className='text-center text-indigo-500 p-2 text-4xl text-red-500'>
+        <p className='text-center  p-2 text-4xl text-red-500'>
           <a
             target={'_blank'}
             href='https://github.com/alwaz-shahid'
