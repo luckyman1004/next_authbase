@@ -3,11 +3,7 @@ import { useSession } from 'next-auth/react';
 
 export default function Profile() {
   const { data: session } = useSession();
-  //   useEffect(() => {
-  //     if (session) {
-  //       alert('You are signed in ' + session.user.image);
-  //     }
-  //   }, [session]);
+  useEffect(() => {}, [session]);
 
   if (!session) return null;
   return (
@@ -24,7 +20,6 @@ export default function Profile() {
         />
         <p className='mt-2'>Name: {session.user.name}</p>
         <p className='mt-2'>Email: {session.user.email}</p>
-        
       </div>
     </div>
   );

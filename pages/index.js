@@ -1,6 +1,6 @@
 import { NextSeo } from 'next-seo';
-import AuthScreen from '../src/components/Auth/AuthScreEn';
-import Profile from '../src/components/Auth/Profile';
+import AuthScreen from '../src/components/Auth/AuthScreen';
+
 
 export default function Home() {
   return (
