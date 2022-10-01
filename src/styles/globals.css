@@ -38,3 +38,25 @@ a {
     background: black;
   }
 }
+
+/* .navbar{
+  @apply flex justify-start items-center  bg-gray-100
+  p-2 my-2 hover:bg-red-400 rounded-md;
+} */
+
+.navbar {
+  @apply flex md:justify-start justify-center md:items-center 
+  lg:p-2 lg:text-base text-sm font-normal rounded-md bg-gray-700 text-white;
+}
+
+.navbar a {
+  @apply text-sm lg:text-lg font-bold;
+}
+
+.navbar a:hover {
+  @apply text-red-400;
+}
+
+.navbar a:active {
+  @apply text-red-400;
+}

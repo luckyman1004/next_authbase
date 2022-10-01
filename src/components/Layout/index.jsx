@@ -5,43 +5,59 @@ export default function Layout({ children }) {
     <main className='min-h-screen max-w-7xl mx-auto min-w-full overflow-hidden flex-col justify-start items-center bg-slate-600'>
       <Navbar />
       {children}
+      <footer className='flex flex-col justify-center items-center w-full p-2 border-t'>
+        <h1 className='text-center text-sky-500 text-2xl'>
+          © 2021 Next.js + Next - auth
+        </h1>
+        <p className='text-center text-sky-500'> a side project by Alwaz</p>
+        <br />
+
+        <p className='text-center text-sky-500 text-base animate-pulse'>
+          {' '}
+          <a
+            target={'_blank'}
+            href='https://github.com/alwaz-shahid/next-auth-app-base'
+          >
+            You can find the source code 👉 <hr /> Source code
+          </a>
+          <hr />
+        </p>
+        <p className='text-center text-indigo-500 p-2 text-4xl text-red-500'>
+          <a
+            target={'_blank'}
+            href='https://github.com/alwaz-shahid'
+            className='flex items-center'
+          >
+            Follow me on Guthub to get updates on my projects
+          </a>
+        </p>
+      </footer>
     </main>
   );
 }
 
 const Navbar = () => {
   return (
-    <nav className='space-x-5 p-2 flex items-center bg-slate-700'>
-      <Link href='/'>
-        <a className='p-2 my-2 hover:bg-red-400 rounded-md'>Home</a>
-      </Link>
-      <Link href='/profile'>
-        <a className='p-2 my-2 hover:bg-red-400 rounded-md'> 🔐 Profile</a>
-      </Link>
-      <Link href='/people'>
-        <a className='p-2 my-2 hover:bg-red-400 rounded-md'> 🔐 People</a>
-      </Link>
-      <div className='flex items-center space-x-4'>
-        <p className=' block my-2 p-2 font-bold text-center bg-sky-500 rounded-md'>
+    <nav className='navbar  '>
+      <div className='flex-wrap flex  md:flex-row flex-col'>
+        <Link href='/'>
+          <a>Home</a>
+        </Link>
+        <Link href='/profile'>
+          <a> 🔐 Profile</a>
+        </Link>
+        <Link href='/people'>
+          <a> 🔐 People</a>
+        </Link>
+      </div>
+      <div className='flex items-center px-2 md:flex-row flex-col'>
+        <p className=' lg:my-2 lg:p-2 p-1 text-center bg-sky-500 rounded-md'>
           {' '}
-          Api routes {'=>'}{' '}
+          Api routes
         </p>
-        <a
-          className='p-2 my-2 hover:bg-red-400 rounded-md'
-          href='/api/restricted'
-        >
-          🔐 Protected
-        </a>
-        l
-        <a className='p-2 my-2 hover:bg-red-400 rounded-md' href='/api/test'>
-          🔐 Test api
-        </a>
-        <a
-          className='p-2 my-2 hover:bg-red-400 rounded-md'
-          href='/api/edge-hack'
-        >
-          🔐 Try out edge feature
-        </a>
+        <a href='/api/restricted'>🔐 Protected</a>l
+        <a href='/api/test'>🔐 Test api</a>
+        <a href='/api/edge-hack'>🔐 Try out edge feature</a>
       </div>
     </nav>
   );
