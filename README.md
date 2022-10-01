@@ -1,24 +1,28 @@
 
-# Next.js Tailwind Css Template.
+# Next.js and Next Auth Example with Tailwind Css.
+<hr/>
 
+![image](https://user-images.githubusercontent.com/52915358/193409538-d8c65edd-54c3-4949-91d5-8678fbc63c9e.png)
 
 <hr/>
 <h1 align="center">Hi 👋, I'm Alwaz</h1>
 <h3 align="center">I'm a Full Stack developer, doing freelance.</h3>
 <hr/>
 <h4 align="left">
-This is an example of next js and tailwind css.
-A quick start template so that you can focus more on your project.
+This is an example app ft Next js and Next Auth for easy auth implimentation.
+This demo has a feww protexted routes and public routes.
+You must be authenticated in order to acces those protected routes' data.
 </h4>   
 
 >
 > Make your project SEO friendly with Next-Seo.
+> Your mail has to be in the filter list to work with this demo app.
 
- Here you can find live [Preview]([http://example.net/](https://next-tailwind-css-cna.netlify.app/)) of the app. &copy; 2022
+ Here you can find live [Preview]([http://example.net/](https://next-auth-app-baseapp.vercel.app//)) of the app. &copy; 2022
 
 ## Commands
 ```
-CLI: npx create-next-app --example [link] [my-app]
+
 >
 dev:next dev
 build: next build
@@ -39,7 +43,7 @@ Connect with me on [Instagram](https://www.instagram.com/alwazdev)
 <hr/>
 <p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=alwaz-shahid" alt="alwaz-shahid" /><hr/></a> </p>
 
-- 🌱 I’m currently learning **Astro, Blockchainand and much more**
+- 🌱 I’m currently learning **Astro, Blockchain and and much more**
 
 - 💬 Ask me about **React js, Next js, node js, express js, Django, Fastapi, Next Auth, MongoDB, PostgreSql and blockchain (Solidity)**
 
