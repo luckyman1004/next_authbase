@@ -1,0 +1,5 @@
+import { people_data } from '../../../data';
+
+export default function handler(req, res) {
+  res.status(200).json(people_data);
+}
