@@ -11,7 +11,7 @@ export default function Layout({ children }) {
 
 const Navbar = () => {
   return (
-    <nav className='space-x-5 p-2 bg-slate-700'>
+    <nav className='space-x-5 p-2 flex items-center bg-slate-700'>
       <Link href='/'>
         <a className='p-2 my-2 hover:bg-red-400 rounded-md'>Home</a>
       </Link>
@@ -21,12 +21,28 @@ const Navbar = () => {
       <Link href='/people'>
         <a className='p-2 my-2 hover:bg-red-400 rounded-md'> 🔐 People</a>
       </Link>
-      <a
-        className='p-2 my-2 hover:bg-red-400 rounded-md'
-        href='/api/restricted'
-      >
-        🔐 Protected
-      </a>
+      <div className='flex items-center space-x-4'>
+        <p className=' block my-2 p-2 font-bold text-center bg-sky-500 rounded-md'>
+          {' '}
+          Api routes {'=>'}{' '}
+        </p>
+        <a
+          className='p-2 my-2 hover:bg-red-400 rounded-md'
+          href='/api/restricted'
+        >
+          🔐 Protected
+        </a>
+        l
+        <a className='p-2 my-2 hover:bg-red-400 rounded-md' href='/api/test'>
+          🔐 Test api
+        </a>
+        <a
+          className='p-2 my-2 hover:bg-red-400 rounded-md'
+          href='/api/edge-hack'
+        >
+          🔐 Try out edge feature
+        </a>
+      </div>
     </nav>
   );
 };
