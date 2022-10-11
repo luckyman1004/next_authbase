@@ -18,7 +18,7 @@ You must be authenticated in order to acces those protected routes' data.
 > Make your project SEO friendly with Next-Seo.
 > Your mail has to be in the filter list to work with this demo app.
 
- Here you can find live [Preview]([http://example.net/](https://next-auth-app-baseapp.vercel.app//)) of the app. &copy; 2022
+ Here you can find live [Preview](https://next-auth-app-baseapp.vercel.app/) of the app. &copy; 2022
 
 ## Commands
 ```
